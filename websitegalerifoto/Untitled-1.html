@@ -1,0 +1,96 @@
+<?php
+//menghubungkan ke data base
+$koneksi = mysql_connec("localhpst","root","","galeri poto rpl2")
+
+//mengambil data dari database
+$hasil = mysql_query($koneksi,"SLELECT * FORM poto")
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body>
+        <h1>HALAMAN ADMIN</h1>
+        <A href="">tambah data</A>
+        <table bolder=""1>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>poto kegiatan</th>
+                    <th>judul kegiatan</th>
+                    <th>tanggal</th>
+                    <th>action</th>
+                </tr>
+            </thead>
+            <body>
+                <?php
+                $i=1;
+                while($row = mysql_fatch_assoc($hasil)):?>
+                <tr>
+                    <td><?= $i ?><?</d>
+                    <td><?= $row["potp"] ?</d> 
+                    <td><?= $row["keterangan"] ?</d>  
+                    <td><?= $row["tanggal"] ?</d>  
+                        </td><a hre
+                        f="">"edit</a> | <a href="">hapus</a>
+                        </td>
+                    </tr>
+                    <?php
+                    $i++;
+                    endwhile; ?>
+                </body>
+                </table>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                </head>
+                <body>
+                    f="">"login</a> | <a href="">logout</a>
+                    
+                <h1>HALAMAN GALERY</h1>
+                <A HREF="">tambah data</A>
+                <table bolder="1">
+                    <thead>
+                        <tr>
+                            <th><h1>galery album</h1></th>
+                            <th>albumID</th>
+                            <th>namaalbum</th>
+                            <th>deskripsi</th>
+                            <th>tanggaldibuat</th>
+                            <th>userid</th>
+                            </tr>
+                            <tr>
+                                <th><h1>galeryfoto</h1></th>
+                                <th>fotoid</th>
+                                <th>judulfoto</th>
+                                <th>deskripsipoto</th>
+                                <th>tanggaldiunggah</th>
+                                <th>lokasifile</th>
+                                <th>albumid</th>
+                                <th>userid</th>                           
+                            </tr>
+                            <tr>
+                                <th><h1>komentarfoto</h1></th>
+                                <th>komentarid</th>
+                                <th>fotoid</th>
+                                <th>userid</th>
+                                <th>isikomentar</th>
+                                <th>tanggalkomentar</th>                              
+                            </tr>
+                            <tr>
+                                <th><h1>galleryuser</h1></th>
+                                <th>username</th>
+                                <th>password</th>
+                                <th>email</th>
+                                <th>namalengkap</th>
+                                <th>alamat</th>                              
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                ?>
+                                <tr>
+
+                                </td>
+
+    </body>
+    </html>        

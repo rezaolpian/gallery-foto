@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>website galeri foto</h1>
+        <a href="">tambah data</a>
+        <table>border="1">
+            <head>
+                <tr>
+                    <h1>gallery user</h1>
+                    <th>user nama</th>
+                    <th>password</th>
+                    <th>email</th>
+                    <th>nama lengkap</th>
+                    <th>alamat</th>
+                </tr>
+
+                </thead>
+
+                <head>
+                    <tr>
+                        <h1>galery foto</h1>
+                        <th>fiti ID></th>
+                        <th>judul foto</th>
+                        <th>deskripsi foto</th>
+                        <th>tanggal unggah</th>
+                        <th>lokasi file</th>
+                        <th>album ID</th>
+                        <th>user ID></th>
+                    </tr>
+                </head>
+
+
+
+            </head>
+
+        </table>
+    </body>
+    </html>
